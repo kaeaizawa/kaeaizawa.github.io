@@ -661,5 +661,14 @@ grid-template-columns:1fr;
 .section-title h2{
 font-size:34px;
 }
+  .main-card-photo{
+width:280px;
+height:210px;
+object-fit:cover;
+object-position:center top;
+border-radius:18px;
+margin:0 auto 14px auto;
+display:block;
+}
 
 }
