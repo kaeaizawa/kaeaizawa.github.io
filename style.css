@@ -657,5 +657,23 @@ height:auto;
 object-fit:contain;
 display:block;
 }
+   .card-image-box{
+width:240px !important;
+height:170px !important;
+margin:0 auto 10px auto !important;
+display:flex !important;
+justify-content:center !important;
+align-items:center !important;
+overflow:hidden !important;
+background:transparent !important;
+}
 
+.card-image{
+width:auto !important;
+height:160px !important;
+max-width:230px !important;
+object-fit:contain !important;
+display:block !important;
+padding:0 !important;
+margin:0 auto !important;
 }
