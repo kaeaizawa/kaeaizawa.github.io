@@ -193,3 +193,56 @@ font-weight:900;
 background:white;
 color:#ff1111;
 }
+@media(max-width:950px){
+
+.simple-grid,
+.product-grid{
+
+grid-template-columns:repeat(2,1fr) !important;
+
+gap:14px !important;
+
+}
+
+.simple-card,
+.product-card{
+
+padding:16px !important;
+
+}
+
+.simple-card h3,
+.product-card h3{
+
+font-size:16px !important;
+
+}
+
+.simple-card p,
+.product-card p{
+
+font-size:12px !important;
+
+min-height:auto !important;
+
+}
+
+.simple-card strong,
+.product-card strong{
+
+font-size:18px !important;
+
+}
+
+}
+
+@media(max-width:420px){
+
+.simple-grid,
+.product-grid{
+
+grid-template-columns:repeat(2,1fr) !important;
+
+}
+
+}
