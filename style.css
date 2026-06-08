@@ -1214,3 +1214,22 @@ bottom:45px;
 }
 
 }
+.hero-left h1{
+
+font-size:clamp(42px,8vw,95px);
+
+line-height:1;
+
+word-break:break-word;
+
+}
+
+@media(max-width:950px){
+
+.hero-left h1{
+
+font-size:56px;
+
+}
+
+}
