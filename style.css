@@ -1233,3 +1233,36 @@ font-size:56px;
 }
 
 }
+@media(max-width:950px){
+
+.hero{
+display:flex;
+flex-direction:column;
+gap:25px;
+padding:40px 7% 40px;
+}
+
+.hero-left{
+width:100%;
+}
+
+.hero-left h1{
+font-size:42px;
+line-height:1.05;
+letter-spacing:1px;
+word-break:break-word;
+}
+
+.hero-right{
+width:100%;
+height:auto;
+margin-top:20px;
+}
+
+.main-card{
+width:240px;
+height:310px;
+margin:20px auto 0;
+}
+
+}
