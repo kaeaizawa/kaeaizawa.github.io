@@ -277,3 +277,34 @@ background:#ff1111;
 transform:translateX(-4px);
 
 }
+@media(max-width:950px){
+
+.service-grid{
+
+display:grid !important;
+
+grid-template-columns:repeat(2,1fr) !important;
+
+gap:15px !important;
+
+}
+
+.service-card{
+
+padding:18px !important;
+
+}
+
+.service-card h3{
+
+font-size:16px !important;
+
+}
+
+.service-card p{
+
+font-size:12px !important;
+
+}
+
+}
