@@ -1366,3 +1366,48 @@ text-decoration:none;
 color:inherit;
 
 }
+@media(max-width:950px){
+
+.product-grid{
+
+display:grid !important;
+
+grid-template-columns:repeat(2,1fr) !important;
+
+gap:15px !important;
+
+}
+
+.product-card{
+
+padding:18px !important;
+
+}
+
+.product-card h3{
+
+font-size:16px !important;
+
+}
+
+.product-card p{
+
+font-size:12px !important;
+
+}
+
+.product-card strong{
+
+font-size:14px !important;
+
+}
+
+.product-btn{
+
+padding:10px !important;
+
+font-size:13px !important;
+
+}
+
+}
