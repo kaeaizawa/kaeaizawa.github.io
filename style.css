@@ -59,8 +59,12 @@ border-bottom:1px solid rgba(255,0,0,.18);
 }
 
 .logo{
-color:#ffffff;
-text-shadow:0 0 10px #ffffff,0 0 30px #ffffff,0 0 70px #ffffff;
+font-size:40px;
+font-weight:900;
+letter-spacing:5px;
+color:#ff1a1a;
+text-shadow:0 0 10px #ff0000,0 0 30px #ff0000,0 0 70px #ff0000;
+animation:logoGlow 2s infinite alternate;
 }
 
 @keyframes logoGlow{
@@ -161,9 +165,9 @@ transition:.3s;
 }
 
 .btn.red{
-background:#ffffff;
-color:#000000;
-}
+background:#ff1111;
+color:white;
+box-shadow:0 0 35px rgba(255,0,0,.55);
 }
 
 .btn.dark{
@@ -189,7 +193,7 @@ top:70px;
 width:335px;
 height:440px;
 border-radius:34px;
-background:linear-gradient(160deg,#ffffff,#d9d9d9 58%,#8f8f8f);
+background:linear-gradient(160deg,#ff1111,#450000 58%,#120000);
 box-shadow:0 0 70px rgba(255,0,0,.55),inset 0 0 45px rgba(255,255,255,.14);
 display:flex;
 flex-direction:column;
